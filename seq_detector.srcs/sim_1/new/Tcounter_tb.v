@@ -45,11 +45,13 @@ module Tcounter_tb(
       #10
       restn = 1;
       enable =1; 
-      #300
+      #400
       enable = 0;
-      #500
+      #300
       enable = 1;
       #800
       enable =0;
+      #200
+      enable = 1;
     end
 endmodule
